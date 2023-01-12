@@ -14,7 +14,7 @@ This is a full-stack e-commerce application built using ReactJS on the front-end
 ## Getting Started
 1. Clone the repository
 ```sh
-git clone https://github.com/[username]/my-ecommerce-site.git
+git clone https://github.com/Thiomark/leavealot-ecommerce-store
 ```
 2. Install dependencies
 ```sh
