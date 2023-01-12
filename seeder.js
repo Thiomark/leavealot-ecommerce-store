@@ -12,7 +12,7 @@ connectDB()
 
 const importData = async () => {
     try {
-        //await Order.deleteMany
+        await Order.deleteMany
         await Product.deleteMany
         await User.deleteMany
 
@@ -51,4 +51,5 @@ const destroyData = async () => {
     }
 }
 
+// destroyData()
 importData()
