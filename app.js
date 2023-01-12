@@ -4,6 +4,11 @@ import connectDB from './config/db.js'
 import {errorMiddleware} from './middleware/errorMiddleware.js'
 import path from 'path'
 import morgan from 'morgan'
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 dotenv.config()
 
