@@ -17,7 +17,7 @@ function App() {
 
     return (
         <Router>
-            <Header title="Task Tracker"/>
+            <Header title="Leavealot"/>
             <main className='py-3'>
                 <Container>
                     {alerts && (alerts.map(alert => (<Messsage key={alert._id} variant={alert.errorType}>{alert.errorMessage}</Messsage>)))}

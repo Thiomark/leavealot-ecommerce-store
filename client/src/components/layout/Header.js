@@ -18,8 +18,8 @@ const Header = () => {
     }
 
     return (
-        <header>
-            <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+        <header style={{borderBottom: '1px solid #E0E0E0'}}>
+            <Navbar expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to="/">
                         <Navbar.Brand >Leavealot</Navbar.Brand>
